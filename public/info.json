@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/XbyCTHH/Health.png",
+        "title": "Support Cancer Research",
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_bg": "#0052FF",
+        "description": "Donate to help fund groundbreaking cancer research.",
+        "price": 111
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/fQprpdD/Education.png",
+        "title": "Build Classrooms",
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_bg": "#FF444A",
+        "description": "Help build classrooms for underprivileged children.",
+        "price": 222
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/CvNgpdk/Clothing.png",
+        "title": "Donate Warm Clothes",
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_bg": "#79C23F",
+        "description": "Provide warm clothes for those in cold regions.",
+        "price": 333
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/PWvYPXM/Food.png",
+        "title": "Feed the Hungry",
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F8714726",
+        "text_bg": "#0052FF",
+        "description": "Donate to provide meals for the hungry.",
+        "price": 444
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/XbyCTHH/Health.png",
+        "title": "Mental Health Support",
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_bg": "#0052FF",
+        "description": "Help offer mental health resources to those in need.",
+        "price": 555
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/fQprpdD/Education.png",
+        "title": "School Supplies",
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_bg": "#FF444A",
+        "description": "Provide essential school supplies to students.",
+        "price": 666
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/CvNgpdk/Clothing.png",
+        "title": "Clothes for Disaster Victims",
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_bg": "#79C23F",
+        "description": "Assist victims of natural disasters with essential clothing.",
+        "price": 777
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/PWvYPXM/Food.png",
+        "title": "Support Local Farmers",
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F8714726",
+        "text_bg": "#0052FF",
+        "description": "Help local farmers sustain their operations.",
+        "price": 888
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/XbyCTHH/Health.png",
+        "title": "Medical Equipment Drive",
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_bg": "#0052FF",
+        "description": "Donate towards purchasing essential medical equipment.",
+        "price": 999
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/fQprpdD/Education.png",
+        "title": "Literacy Program",
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_bg": "#FF444A",
+        "description": "Support adult literacy programs.",
+        "price": 1010
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/CvNgpdk/Clothing.png",
+        "title": "Winter Jackets Drive",
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_bg": "#79C23F",
+        "description": "Help provide winter jackets to the homeless.",
+        "price": 1111
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/PWvYPXM/Food.png",
+        "title": "Community Kitchen Support",
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F8714726",
+        "text_bg": "#0052FF",
+        "description": "Donate to support community kitchens serving the needy.",
+        "price": 1212
+    }
+]

@@ -5,7 +5,7 @@ import background from '../../../assets/images/Rectangle4288.png'
 const styles = {
     header: {
       backgroundImage: `url(${background})`,
-      height: '100vh',
+      height: '60vh',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover'
