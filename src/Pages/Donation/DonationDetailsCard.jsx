@@ -9,7 +9,29 @@ const DonationDetailsCard = ({ donationDetails }) => {
     price,
     text_bg,
     title,
-  } = donationDetails || {};
+    } = donationDetails || {};
+    
+
+    const handleDonate = () => {
+
+        const addedDonationArray = [];
+
+        const donationLists = JSON.parse(localStorage.getItem('donate'))
+        
+        if (!donationLists) {
+            addedDonationArray.push(donationDetails)
+            localStorage.setItem('donate', JSON.stringify(donationDetails))
+        }
+        else {
+            addedDonationArray.push(...donationLists, donationDetails)
+            localStorage.setItem('donate', JSON.stringify(donationDetails))
+
+        }
+
+    //    localStorage.setItem('donate', JSON.stringify(donationDetails))
+
+    }
+
 
   return (
     <div>
@@ -25,6 +47,7 @@ const DonationDetailsCard = ({ donationDetails }) => {
                       
 
                       <button
+                          onClick={handleDonate}
             className=" absolute left-10 bottom-10 select-none rounded-lg bg-red-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none z-10"
             type="button"
             data-ripple-light="true"
