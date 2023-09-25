@@ -13,7 +13,7 @@ const DonatedCard = ({ donation }) => {
         title,
       } = donation || {}
 
-    console.log(donation);
+    // console.log(donation);
     return (
         <div className=" max-w-7xl mx-auto">
             <div
