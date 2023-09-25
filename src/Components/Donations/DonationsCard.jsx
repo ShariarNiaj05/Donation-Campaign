@@ -17,7 +17,7 @@ const DonationsCard = ({ donation }) => {
 
   return (
       <Link to={`/donationdetails/${id}`}>
-        <div
+      <div
           style={{ backgroundColor: card_bg}}>
       <div className={`relative flex flex-col rounded-xl bg-clip-border text-gray-700 shadow-md`}>
         <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">

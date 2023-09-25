@@ -39,7 +39,7 @@
         "category": "Food",
         "category_bg": "#F87147",
         "card_bg": "#F8714726",
-        "text_bg": "#0052FF",
+        "text_bg": "#F87147",
         "description": "Donate to provide meals for the hungry.",
         "price": 444
     },
@@ -83,7 +83,7 @@
         "category": "Food",
         "category_bg": "#F87147",
         "card_bg": "#F8714726",
-        "text_bg": "#0052FF",
+        "text_bg": "#F87147",
         "description": "Help local farmers sustain their operations.",
         "price": 888
     },
@@ -127,7 +127,7 @@
         "category": "Food",
         "category_bg": "#F87147",
         "card_bg": "#F8714726",
-        "text_bg": "#0052FF",
+        "text_bg": "#F87147",
         "description": "Donate to support community kitchens serving the needy.",
         "price": 1212
     }
