@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import DonatedCard from "./DonatedCard";
 
+
 const Donation = () => {
   const [donations, setDonations] = useState([]);
     const [noFound, setNoFound] = useState(false);
@@ -25,7 +26,7 @@ const Donation = () => {
 
   }
 
-    console.log(totalPrice);
+    // console.log(totalPrice);
   return (
     <div>
       {noFound ? (
@@ -51,6 +52,8 @@ const Donation = () => {
                           className={isShow? 'hidden' : " bg-green-500 text-white p-5 rounded block mx-auto"}>
                           See All</button>
                       }
+
+                    
         </div>
       )}
     </div>
