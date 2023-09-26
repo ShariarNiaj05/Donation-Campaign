@@ -49,7 +49,8 @@ const DonationDetailsCard = ({ donationDetails }) => {
 
             <button
               onClick={handleDonate}
-              className=" absolute left-10 bottom-10 select-none rounded-lg bg-red-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none z-10"
+              style={{ backgroundColor: category_bg }}
+              className=" absolute left-10 bottom-10 select-none rounded-lg  py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none z-10"
               type="button"
               data-ripple-light="true"
             >
