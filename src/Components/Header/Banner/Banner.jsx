@@ -17,24 +17,24 @@ const styles = {
   },
 };
 
-const handleSearch = e=> {
-  e.preventDefault();
-}
+// const handleSearch = e=> {
+//   e.preventDefault();
+// }
 
 const Banner = () => {
   return (
     <div style={styles.header}>
       <div style={styles.content}>
-        <h2 className="text-center font-bold md:text-2xl lg:text-6xl align-middle pt-40">
+        <h2 className="text-center font-bold md:text-2xl lg:text-6xl align-middle pt-12 lg:pt-36">
           I Grow By Helping People In Need
         </h2>
 
         {
-          <form onSubmit={handleSearch} className="text-center mt-5">
+          <form className="text-center lg:mt-5">
             <input
-              className=" w-[60%] h-16 p-5"
+              className=" w-[60%] lg:h-16 p-5"
               type="search"
-              placeholder="Search by category..."
+              placeholder="Search by category name.."
               name="searchText"
             ></input>
             <input className=" bg-red-600 h-16 w-28 text-white font-bold" type="submit" value="Search"></input>
