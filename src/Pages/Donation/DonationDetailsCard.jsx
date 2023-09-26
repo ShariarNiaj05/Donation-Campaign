@@ -58,9 +58,9 @@ const DonationDetailsCard = ({ donationDetails }) => {
             </button>
           </div>
         </div>
-        <div className="h-20 bg-black opacity-30 absolute bottom-72 md:bottom-[210px] p-5 left-5 w-[300px] md:w-[850px]  lg:w-[1160px]"></div>
+        <div className=" bg-black opacity-30 absolute h-20 bottom-[170px]  md:bottom-[160px] lg:bottom-[170px] p-5 left-5 w-[310px] md:w-[650px] lg:w-[910px] xl:w-[1160px]"></div>
         <div className="p-6">
-          <h2 className="mb-2 block font-sans text-6xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
+          <h2 className="mb-2 block font-sans text-base sm:text-2xl lg:text-4xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
             {title}
           </h2>
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">

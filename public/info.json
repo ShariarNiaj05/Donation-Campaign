@@ -46,7 +46,7 @@
     {
         "id": "5",
         "picture": "https://i.ibb.co/XbyCTHH/Health.png",
-        "title": "Mental Health Support",
+        "title": "Mental Health",
         "category": "Health",
         "category_bg": "#0052FF",
         "card_bg": "#0052FF26",
@@ -68,7 +68,7 @@
     {
         "id": "7",
         "picture": "https://i.ibb.co/CvNgpdk/Clothing.png",
-        "title": "Clothes for Disaster Victims",
+        "title": "Clothes for Victims",
         "category": "Clothing",
         "category_bg": "#79C23F",
         "card_bg": "#79C23F26",
@@ -90,7 +90,7 @@
     {
         "id": "9",
         "picture": "https://i.ibb.co/XbyCTHH/Health.png",
-        "title": "Medical Equipment Drive",
+        "title": "Medical Equipment",
         "category": "Health",
         "category_bg": "#0052FF",
         "card_bg": "#0052FF26",
@@ -123,7 +123,7 @@
     {
         "id": "12",
         "picture": "https://i.ibb.co/PWvYPXM/Food.png",
-        "title": "Community Kitchen Support",
+        "title": "Community Support",
         "category": "Food",
         "category_bg": "#F87147",
         "card_bg": "#F8714726",

@@ -25,7 +25,7 @@ const Banner = () => {
   return (
     <div style={styles.header}>
       <div style={styles.content}>
-        <h2 className="text-center font-bold text-6xl align-middle pt-40">
+        <h2 className="text-center font-bold md:text-2xl lg:text-6xl align-middle pt-40">
           I Grow By Helping People In Need
         </h2>
 
